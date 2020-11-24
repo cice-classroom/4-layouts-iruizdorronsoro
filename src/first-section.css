@@ -1,0 +1,72 @@
+.first-section {
+  background-color: var(--background-alt-color);
+  padding: 0 var(--m) 0 2.5rem;
+}
+
+.fs-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  max-width: var(--body-width);
+  /*No need of padding to align with wrapper -> border = --s*/
+
+  grid-template-areas:
+    'a a a g i i'
+    'b d e g j k'
+    'c d f h l m';
+}
+
+.box_1 {
+  grid-area: a;
+}
+
+.box_2 {
+  grid-area: b;
+}
+
+.box_3 {
+  grid-area: c;
+}
+
+.box_4 {
+  grid-area: d;
+}
+
+.box_5 {
+  grid-area: e;
+}
+
+.box_6 {
+  grid-area: f;
+}
+
+.box_7 {
+  grid-area: g;
+}
+
+.box_8 {
+  grid-area: h;
+}
+
+.box_9 {
+  grid-area: i;
+}
+
+.box_10 {
+  grid-area: j;
+}
+
+.box_11 {
+  grid-area: k;
+}
+
+.box_12 {
+  grid-area: l;
+}
+
+.box_13 {
+  grid-area: m;
+}

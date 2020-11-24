@@ -1,0 +1,32 @@
+.navbar {
+  padding: var(--m);
+  display: flex;
+  box-shadow: var(--shadow);
+}
+
+.navbar__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: var(--body-width);
+  width: 100%;
+  padding: 0 var(--s);
+}
+
+.navbar__logo {
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--primary-color);
+  border-radius: 9999px;
+}
+
+.navbar__search {
+  background-color: var(--primary-color);
+  color: var(--on-primary-color);
+  border-radius: 9999px;
+  padding: var(--s) var(--l);
+}
+.navbar__login {
+  padding: var(--s) var(--l);
+}

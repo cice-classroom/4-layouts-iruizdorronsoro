@@ -1,0 +1,13 @@
+.button {
+  border-radius: 9999px;
+  padding: var(--s) var(--l);
+  border: none;
+  /*Define margin in parent*/
+  color: var(--foreground-color);
+  background-color: var(--background-color);
+}
+
+.button__primary {
+  color: var(--on-primary-color);
+  background-color: var(--primary-color);
+}
