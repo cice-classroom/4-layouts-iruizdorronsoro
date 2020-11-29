@@ -1,0 +1,18 @@
+.fourth-section {
+  background-color: var(--background-color);
+}
+.fos__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+}
+.fos__h4 {
+  margin-top: 12vh;
+}
+.fos__p {
+  max-width: 33rem;
+}
+.fos__button {
+  margin-top: 3rem;
+}
