@@ -1,5 +1,5 @@
 .box {
-  margin: 0.5rem;
+  margin: var(--m);
   background-color: var(--primary-color);
 }
 .box__hidden {

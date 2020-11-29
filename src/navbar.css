@@ -11,7 +11,7 @@
   margin: 0 auto;
   max-width: var(--body-width);
   width: 100%;
-  padding: 0 var(--s);
+  padding: 0 var(--m);
 }
 
 .navbar__logo {

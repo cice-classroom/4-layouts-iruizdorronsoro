@@ -1,0 +1,46 @@
+.second-section {
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  /* TODO */
+  height: 90vh;
+  padding: 0 var(--m) 0 2.5rem;
+}
+
+.ss__h4 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex: 1;
+}
+
+.ss__frame {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  max-width: var(--body-width);
+  /* TODO */
+  margin: 0 0 0 10rem;
+}
+
+.ss__left,
+.ss__right {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.ss__left {
+  justify-content: flex-start;
+}
+
+.ss__right {
+  justify-content: flex-end;
+}
+.ss__title__right {
+  display: flex;
+  justify-content: flex-end;
+}
+.ss__box {
+  padding: var(--xl);
+}

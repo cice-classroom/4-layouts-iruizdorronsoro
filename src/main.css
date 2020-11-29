@@ -3,8 +3,11 @@
 @import './styles.css';
 @import './navbar.css';
 @import './button.css';
-@import './first-section.css';
 @import './box.css';
+@import './hero.css';
+@import './first-section.css';
+@import './second-section.css';
+@import './third-section.css';
 
 .main {
   display: flex;
