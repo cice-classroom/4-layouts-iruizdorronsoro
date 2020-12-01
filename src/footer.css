@@ -1,0 +1,53 @@
+.footer {
+  background-color: var(--background-alt-color);
+  display: flex;
+  flex-direction: column;
+}
+.f__upper,
+.f__lower {
+  display: flex;
+  flex-direction: row;
+}
+
+.f__upper {
+  flex: 5;
+}
+.f__lower {
+  flex: 1;
+  background-color: var(--background-footer-color);
+  padding: var(--s);
+  width: 100%;
+}
+
+.f__h4__container {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.f__list {
+  display: flex;
+  flex-direction: row;
+}
+
+.f__ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.f__li {
+}
+
+.f__left {
+  flex: 1;
+}
+
+.f__right {
+  flex: 6;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.f__h6 {
+  margin: 0 var(--xl) 0 0;
+}

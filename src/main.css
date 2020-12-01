@@ -9,6 +9,7 @@
 @import './second-section.css';
 @import './third-section.css';
 @import './fourth-section.css';
+@import './footer.css';
 
 .main {
   display: flex;
