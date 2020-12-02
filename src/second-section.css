@@ -50,3 +50,15 @@
 .ss__p__right {
   align-items: flex-end;
 }
+
+@media (max-width: 720px) {
+  .ss__right {
+    flex-direction: row-reverse;
+  }
+  .ss__title__right {
+    justify-content: flex-start;
+  }
+  .ss__p__right {
+    align-items: flex-start;
+  }
+}
