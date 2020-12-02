@@ -56,3 +56,23 @@
 .rotate {
   transform: rotate(180deg);
 }
+
+@media (max-width: 1400px) {
+  .hero__box__h6:nth-of-type(5),
+  .hero__box__h6:nth-of-type(6),
+  .hero__box__h6:nth-of-type(7),
+  .hero__box__h6:nth-of-type(8) {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  .hero__box__h6:nth-of-type(2),
+  .hero__box__h6:nth-of-type(3),
+  .hero__box__h6:nth-of-type(4) {
+    display: none;
+  }
+  .hero__boxlist {
+    justify-content: space-around;
+  }
+}
