@@ -17,6 +17,7 @@
 
 .ts__p {
   justify-content: center;
+  margin: 0 auto;
 }
 
 .ts__box__container {
@@ -26,4 +27,33 @@
 }
 .ts__box {
   padding: var(--xl);
+}
+
+@media (max-width: 1500px) {
+  .ts__container {
+    height: 60vh;
+  }
+
+  .ts__box:nth-of-type(4) {
+    display: none;
+  }
+  .ts__p {
+    max-width: 40rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .ts__container {
+    height: 85vh;
+    margin: 0 var(--xl);
+  }
+  .ts__box__container {
+    flex-wrap: wrap;
+  }
+  .ts__box:nth-of-type(4) {
+    display: none;
+  }
+  .ts__p {
+    max-width: 20rem;
+  }
 }
