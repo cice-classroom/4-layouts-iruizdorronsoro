@@ -71,3 +71,22 @@
 .box_13 {
   grid-area: m;
 }
+
+@media (max-width: 1400px) {
+  .fs__container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      'a a a'
+      'b d e'
+      'c d f';
+  }
+  .box_7,
+  .box_8,
+  .box_9,
+  .box_10,
+  .box_11,
+  .box_12,
+  .box_13 {
+    display: none;
+  }
+}
