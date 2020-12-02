@@ -11,6 +11,8 @@
 
 .f__upper {
   flex: 5;
+  display: flex;
+  flex-direction: row;
 }
 .f__lower {
   flex: 1;
@@ -20,21 +22,33 @@
 }
 
 .f__h4__container {
+  flex: 1;
   justify-content: flex-start;
   align-items: flex-start;
 }
 
+.f__h4 {
+  margin: var(--l) var(--xl);
+}
+
 .f__list {
+  flex: 1;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  margin: var(--l) var(--xl);
 }
 
 .f__ul {
   display: flex;
   flex-direction: column;
+  font-weight: bold;
+  padding: 0 var(--l);
 }
 
 .f__li {
+  font-weight: normal;
+  list-style: disc;
 }
 
 .f__left {
@@ -42,12 +56,12 @@
 }
 
 .f__right {
-  flex: 6;
+  flex: 4;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 
 .f__h6 {
-  margin: 0 var(--xl) 0 0;
+  margin: 0 var(--xxl) 0 0;
 }

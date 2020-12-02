@@ -4,6 +4,8 @@
   --m: calc(var(--base) * 2);
   --l: calc(var(--base) * 4);
   --xl: calc(var(--base) * 8);
+  --xsl: calc(var(--base) * 10);
+  --xxl: calc(var(--base) * 16);
   --body-width: 80rem;
 
   --body-font: 'Open Sans', sans-serif;

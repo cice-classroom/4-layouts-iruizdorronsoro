@@ -2,6 +2,7 @@
   background-color: var(--background-color);
   display: flex;
   flex-direction: column;
+  align-items: center;
   /* TODO */
   height: 90vh;
   padding: 0 var(--m) 0 2.5rem;
@@ -19,15 +20,14 @@
   flex-direction: column;
   flex: 3;
   max-width: var(--body-width);
-  /* TODO */
-  margin: 0 0 0 10rem;
+  width: 100%;
+  margin: 0 var(--xl);
 }
 
 .ss__left,
 .ss__right {
   display: flex;
   flex-direction: row;
-  flex: 1;
 }
 
 .ss__left {
@@ -42,5 +42,11 @@
   justify-content: flex-end;
 }
 .ss__box {
-  padding: var(--xl);
+  padding: var(--xsl);
+}
+.ss__p {
+  max-width: 20rem;
+}
+.ss__p__right {
+  align-items: flex-end;
 }
