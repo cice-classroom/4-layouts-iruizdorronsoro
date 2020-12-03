@@ -5,8 +5,8 @@
 .ts__container {
   display: flex;
   flex-direction: column;
-  height: 50vh;
   margin: 0 auto;
+  margin-bottom: 2rem;
   max-width: var(--body-width);
 }
 
@@ -30,10 +30,6 @@
 }
 
 @media (max-width: 1500px) {
-  .ts__container {
-    height: 60vh;
-  }
-
   .ts__box:nth-of-type(4) {
     display: none;
   }
@@ -44,8 +40,7 @@
 
 @media (max-width: 720px) {
   .ts__container {
-    height: 85vh;
-    margin: 0 var(--xl);
+    margin: 1rem var(--xl);
   }
   .ts__box__container {
     flex-wrap: wrap;

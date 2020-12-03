@@ -59,6 +59,7 @@
   }
   .ss__frame {
     flex: 6;
+    margin-top: 3rem;
   }
   .ss__right {
     flex-direction: row-reverse;
