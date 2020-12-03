@@ -67,7 +67,7 @@
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 800px) {
   .hero__box__h6:nth-of-type(2),
   .hero__box__h6:nth-of-type(3),
   .hero__box__h6:nth-of-type(4) {
