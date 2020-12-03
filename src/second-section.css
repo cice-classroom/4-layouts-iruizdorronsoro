@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* TODO */
   height: 90vh;
   padding: 0 var(--m) 0 2.5rem;
 }
@@ -52,13 +51,30 @@
 }
 
 @media (max-width: 720px) {
+  .second-section {
+    height: 70vh;
+  }
+  .ss__h4 {
+    align-items: flex-start;
+  }
+  .ss__frame {
+    flex: 6;
+  }
   .ss__right {
     flex-direction: row-reverse;
   }
+  .ss__title,
   .ss__title__right {
     justify-content: flex-start;
+    margin: 1.38rem 0 2.5rem;
   }
+  .ss__p,
   .ss__p__right {
     align-items: flex-start;
+    max-width: 12rem;
+  }
+  .ss__box {
+    padding: var(--xl);
+    margin-bottom: 6rem;
   }
 }
