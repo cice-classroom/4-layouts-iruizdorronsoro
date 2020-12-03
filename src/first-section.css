@@ -5,11 +5,9 @@
 
 .fs__container {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 12rem);
+  grid-template-rows: repeat(3, 12rem);
   width: 100%;
-  /* TODO */
-  height: 60vh;
   margin: 0 auto;
   max-width: var(--body-width);
   /*No need of padding to align with wrapper -> border = --s*/
@@ -74,7 +72,8 @@
 
 @media (max-width: 1400px) {
   .fs__container {
-    grid-template-columns: repeat(3, 1fr);
+    max-width: 36rem;
+    grid-template-columns: repeat(3, 12rem);
     grid-template-areas:
       'a a a'
       'b d e'
@@ -88,5 +87,11 @@
   .box_12,
   .box_13 {
     display: none;
+  }
+}
+@media (max-width: 720px) {
+  .fs__container {
+    grid-template-columns: repeat(6, 10rem);
+    grid-template-rows: repeat(3, 10rem);
   }
 }

@@ -6,7 +6,7 @@
   --xl: calc(var(--base) * 8);
   --xsl: calc(var(--base) * 10);
   --xxl: calc(var(--base) * 16);
-  --body-width: 80rem;
+  --body-width: 72rem;
 
   --body-font: 'Open Sans', sans-serif;
   --title-font: 'Open Sans', sans-serif;
