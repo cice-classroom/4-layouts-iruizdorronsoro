@@ -49,6 +49,7 @@
 .f__li {
   font-weight: normal;
   list-style: disc;
+  margin-left: var(--m);
 }
 
 .f__left {
@@ -86,6 +87,9 @@
 
   .f__right {
     justify-content: flex-start;
+  }
+  .f__h4 {
+    margin: var(--l) 0 var(--l) var(--xl);
   }
   .f__h6 {
     margin: 0 var(--l) 0 0;

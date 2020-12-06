@@ -5,28 +5,28 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 8rem;
+  margin-bottom: var(--xxl);
 }
 .fos__h4 {
-  margin-top: 5rem;
+  margin-top: var(--xsl);
 }
 .fos__p {
   max-width: 33rem;
 }
 .fos__button {
-  margin-top: 3rem;
+  margin-top: var(--l);
   padding: var(--m) var(--xl);
   font-size: large;
 }
 
 @media (max-width: 720px) {
   .fos__container {
-    margin-bottom: 6rem;
+    margin-bottom: var(--xxl);
   }
   .fos__p {
     max-width: 20rem;
   }
   .fos__button {
-    margin-top: 1rem;
+    margin-top: var(--m);
   }
 }
