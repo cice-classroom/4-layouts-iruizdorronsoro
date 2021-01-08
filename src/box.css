@@ -1,0 +1,11 @@
+.box {
+  margin: var(--m);
+  background-color: var(--primary-color);
+}
+.box__hidden {
+  background-color: var(--background-alt-color);
+}
+
+.box__margin {
+  margin: 0%;
+}

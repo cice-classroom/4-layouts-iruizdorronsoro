@@ -1,0 +1,32 @@
+@import './reset.css';
+@import './theme.css';
+@import './styles.css';
+@import './navbar.css';
+@import './button.css';
+@import './box.css';
+@import './hero.css';
+@import './first-section.css';
+@import './second-section.css';
+@import './third-section.css';
+@import './fourth-section.css';
+@import './footer.css';
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero,
+.footer {
+  flex: 3;
+}
+
+.first-section,
+.second-section,
+.fourth-section {
+  flex: 5;
+}
+
+.third-section {
+  flex: 8;
+}

@@ -1,0 +1,32 @@
+.fourth-section {
+  background-color: var(--background-color);
+}
+.fos__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: var(--xxl);
+}
+.fos__h4 {
+  margin-top: var(--xsl);
+}
+.fos__p {
+  max-width: 33rem;
+}
+.fos__button {
+  margin-top: var(--l);
+  padding: var(--m) var(--xl);
+  font-size: large;
+}
+
+@media (max-width: 720px) {
+  .fos__container {
+    margin-bottom: var(--xxl);
+  }
+  .fos__p {
+    max-width: 20rem;
+  }
+  .fos__button {
+    margin-top: var(--m);
+  }
+}

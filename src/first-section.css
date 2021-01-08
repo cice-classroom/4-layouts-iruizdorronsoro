@@ -1,0 +1,97 @@
+.first-section {
+  background-color: var(--background-alt-color);
+  padding: 0 var(--m) 0 2.5rem;
+}
+
+.fs__container {
+  display: grid;
+  grid-template-columns: repeat(6, 12rem);
+  grid-template-rows: repeat(3, 12rem);
+  width: 100%;
+  margin: 0 auto;
+  max-width: var(--body-width);
+  /*No need of padding to align with wrapper -> border = --s*/
+
+  grid-template-areas:
+    'a a a g i i'
+    'b d e g j k'
+    'c d f h l m';
+}
+
+.box_1 {
+  grid-area: a;
+}
+
+.box_2 {
+  grid-area: b;
+}
+
+.box_3 {
+  grid-area: c;
+}
+
+.box_4 {
+  grid-area: d;
+}
+
+.box_5 {
+  grid-area: e;
+}
+
+.box_6 {
+  grid-area: f;
+}
+
+.box_7 {
+  grid-area: g;
+}
+
+.box_8 {
+  grid-area: h;
+}
+
+.box_9 {
+  grid-area: i;
+}
+
+.box_10 {
+  grid-area: j;
+}
+
+.box_11 {
+  grid-area: k;
+}
+
+.box_12 {
+  grid-area: l;
+}
+
+.box_13 {
+  grid-area: m;
+}
+
+@media (max-width: 1400px) {
+  .fs__container {
+    max-width: 36rem;
+    grid-template-columns: repeat(3, 12rem);
+    grid-template-areas:
+      'a a a'
+      'b d e'
+      'c d f';
+  }
+  .box_7,
+  .box_8,
+  .box_9,
+  .box_10,
+  .box_11,
+  .box_12,
+  .box_13 {
+    display: none;
+  }
+}
+@media (max-width: 720px) {
+  .fs__container {
+    grid-template-columns: repeat(6, 10rem);
+    grid-template-rows: repeat(3, 10rem);
+  }
+}
